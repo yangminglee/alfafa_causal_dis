@@ -1,0 +1,14 @@
+name: alfalfa
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.13
+  - numpy
+  - matplotlib
+  - pillow
+  - pyqt
+  - pip
+  - pip:
+      - causal-learn==0.1.4.0
+      
